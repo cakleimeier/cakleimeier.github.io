@@ -1,0 +1,10 @@
+# Site: catherinekleimeier.com
+
+# Components
+# --------------------------------
+/node_modules
+
+# Automatically Generated Files
+# --------------------------------
+/.cache
+/public
