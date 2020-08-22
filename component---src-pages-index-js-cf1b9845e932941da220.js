@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{RXBc:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),c=t.n(a);t("5+t+");n.default=function(){return c.a.createElement("section",{className:"columns"},c.a.createElement("div",{className:"column"},c.a.createElement("h1",null,"Catherine Kleimeier")))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-cf1b9845e932941da220.js.map
