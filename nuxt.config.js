@@ -17,7 +17,7 @@ module.exports = {
 
     // The value of title will be injected into the %s placeholder in titleTemplate before being rendered.
     // The original title will be available on metaInfo.titleChunk.
-    titleTemplate: '%s - Catherine Kleimeier',
+    titleTemplate: '%s',
 
     // Nuxt.js lets you define all default <meta> tags for your application inside nuxt.config.js. Define them using the same head property:
     // Each item in the array maps to a newly-created <meta> element, where object properties map to attributes.
