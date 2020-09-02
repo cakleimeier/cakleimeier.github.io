@@ -11,6 +11,23 @@ module.exports = {
       }
   */
   components: true,
+  modules: [
+    [
+      'nuxt-fontawesome',
+      {
+        imports: [
+          {
+            set: '@fortawesome/free-solid-svg-icons',
+            icons: ['fas']
+          },
+          {
+            set:'@fortawesome/free-brands-svg-icons',
+            icons: ['fab']
+          }
+        ]
+      }
+    ]
+  ],
   head: {
     // Maps to the inner-text value of the <title> element.
     title: '',
@@ -44,7 +61,7 @@ module.exports = {
     // Each item in the array maps to a newly-created <link> element, 
     // where object properties map to attributes.
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', href: 'favicon.png' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Nunito|Raleway' }
     ],
 

@@ -5,11 +5,12 @@
 @charset "utf-8";
 
 
+
 /* Imports */
 /* ---------------------------- */
-@import "~bulma/bulma.sass";
+@import "settings"; // overrides for bulma
+@import "~bulma";
 @import url('https://fonts.googleapis.com/css?family=Nunito|Raleway&display=swap');
 
 /* Custom */
-@import "settings";
 @import "components";
