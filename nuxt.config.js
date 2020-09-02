@@ -1,4 +1,9 @@
 module.exports = {
+  target: 'static',
+  router: {
+    base: '/cakleimeier.github.io/'
+  },
+
   /*
   Headers of the page
     - Nuxt.js uses vue-meta to update the headers and html attributes of your application.
