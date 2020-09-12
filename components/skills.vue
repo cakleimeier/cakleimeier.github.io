@@ -7,7 +7,7 @@
 				<article class="skill-group column is-6">
 					<h3 class="title is-3">Back-End</h3>
 					<p>
-						I have experience building, maintaining, updating, and upgrading custom websites using Content Management Systems (CMS). I also have experience writing custom functionality to integrate with those CMSs. I’ve built and maintained very large websites with thousands of pages, single-page websites, and websites of every scale between.
+						I’ve built, maintained, updated, and upgraded custom websites using Content Management Systems (CMS). Whenever needed, I’ve written custom functionality to integrate with those CMSs. My work has run the gamut, from building and maintaining large websites with thousands of pages to single-pagers and everything in between.
 						<br />
 						To be more specific, I have experience in:
 					</p>
@@ -25,7 +25,7 @@
 				<article class="skill-group column is-6">
 					<h3 class="title is-3">Front-End</h3>
 					<p>
-						Experience translating static mockups into functional, fully-fledged websites using:
+						I’ve translated static mockups into functional, fully-fledged websites using the following technologies:
 					</p>
 					<ul>
 						<li>Javascript</li>
@@ -43,7 +43,7 @@
 				<article class="skill-group column is-6">
 					<h3 class="title is-3">Other Technologies</h3>
 					<p>
-						Experience with:
+						I also have extensive experience with:
 					</p>
 					<ul>
 						<li>Git version control</li>
@@ -59,13 +59,13 @@
 				<article class="skill-group column is-6">
 					<h3 class="title is-3">Other Skills</h3>
 					<p>
-						<strong>Documentation</strong>: I write clear, useful documentation for clients and developers. I’m skilled in researching, synthesizing, and communicating complex concepts in simple and practical language.
+						<strong>Documentation</strong>: I write clear, <em>useful</em> documentation for clients and developers. I’m skilled in researching, synthesizing, and communicating complex concepts in simple and practical language.
 						<br />
-						<strong>Communication</strong>: I can communicate with clients to clarify and manage expectations, gather information, and maintain relationships. I can convey my findings clearly to team members and act as a liaison between clients and the team. I can handle difficult situations with compassion, tact, and patience. I can read a room and fit into the culture. I conduct myself with professionalism and friendliness in calls and meetings, both in person and remotely.
+						<strong>Communication</strong>: I communicate with clients to clarify and manage expectations, gather information, and maintain relationships. I act as a liaison between clients and the team. I handle difficult situations with compassion, tact, and <em>patience</em>. I can read a room and fit into the culture. I conduct myself with professionalism and friendliness in calls and meetings, both in person and remotely.
 						<br />
-						<strong>Problem Solving</strong>: I ask good, insightful questions and find the best solutions for them. I can research, strategize, hypothesize, and test to find the best of those solutions.
+						<strong>Problem Solving</strong>: I ask good, insightful questions. I research, strategize, hypothesize, and test to find the best possible solution.
 						<br />
-						<strong>Teamwork</strong>: I’m a good team member. I lighten the load for others when I can, I know when and how to ask for help, and I try to keep the atmosphere light. I communicate frequently and clearly, I work to get and keep everyone on the same page, and I lead when the occasion calls for it.
+						<strong>Teamwork</strong>: With the right team, I thrive. I lighten the load for others when I can, I know when and how to ask for help, and I try to keep the atmosphere light. I communicate frequently and clearly, I work to get and keep everyone on the same page, and I <em>lead</em> when called.
 					</p>
 				</article>
 			</section>

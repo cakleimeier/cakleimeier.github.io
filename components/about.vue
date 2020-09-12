@@ -10,17 +10,14 @@
 					</figure>
 					<div class="card-content">
 						<p class="title is-4">
-							I'm Catherine Kleimeier.
+							My name is Catherine Kleimeier.
 						</p>
 						<div class="content">
 							<p>
-								I’m a versatile, full-stack web developer living in Grand Rapids, Michigan with my wife, cat, and ever-growing collection of multi-sided dice.
+								I’m a versatile, full-stack web developer living in Grand Rapids, Michigan with my wife, cat, and ever-growing collection of multi-sided dice. When I’m not coding, I enjoy reading, odd music, table-top roleplaying games, languages, and biking.
 							</p>
 							<p>
-								When I’m not coding, I enjoy reading, podcasts, odd music, table-top roleplaying games, languages, and biking.
-							</p>
-							<p>
-								What I love most about coding is using the magic of language to create tangible things that you can interact with and the feeling of finding a simple and elegant solution to an abstract, complex problem.
+								What I love most about coding is using the magic of language to create something tangible. It is just icing on the cake when you interact with that creation and pure delight when you find a simple and elegant solution to an abstract, complex problem.
 							</p>
 						</div>
 					</div>

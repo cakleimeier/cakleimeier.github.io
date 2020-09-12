@@ -5,7 +5,7 @@
 			<h6 class="title is-6">Résumé available upon request</h6>
 
 			<article class="position">
-				<h3>Full-Stack Web Developer <em class="is-size-5">with</em> <span class="has-text-primary">Masuga Design</span> &mdash; May 2018 to Present</h3>
+				<h3>Full-Stack Web Developer @ <span class="has-text-primary">Masuga Design</span> &mdash; May 2018 to Present</h3>
 
 				<ul>
 					<li>Build and maintain custom websites using Craft CMS and ExpressionEngine</li>
@@ -17,7 +17,7 @@
 			</article>
 
 			<article class="position">
-				<h3>Full-Stack Web Developer <em class="is-size-5">with</em> <span class="has-text-primary"> Artisan Digital Media</span> &mdash; December 2016 to August 2017</h3>
+				<h3>Full-Stack Web Developer @ <span class="has-text-primary"> Artisan Digital Media</span> &mdash; December 2016 to August 2017</h3>
 
 				<ul>
 					<li>Build custom websites using ExpressionEngine and Craft CMS</li>
@@ -27,7 +27,7 @@
 			</article>
 
 			<article class="position">
-				<h3>Annotator and Geographical Researcher <em class="is-size-5">with</em> <span class="has-text-primary"> HERE Technologies</span> &mdash; 2012 to 2018</h3>
+				<h3>Annotator and Geographical Researcher @ <span class="has-text-primary"> HERE Technologies</span> &mdash; 2012 to 2018</h3>
 
 				<ul>
 					<li>Evaluate the effectiveness of HERE’s map search program by analyzing the User-entered Queries and software-provided Responses</li>
