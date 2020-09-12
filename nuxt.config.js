@@ -1,5 +1,6 @@
 module.exports = {
   target: 'static',
+  mode: 'spa',
   router: {
     base: '/cakleimeier.github.io/'
   },
