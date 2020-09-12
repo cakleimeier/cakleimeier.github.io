@@ -2,15 +2,12 @@
   "name": "cakleimeier.github.io",
   "version": "1.0.0",
   "description": "Personal website for Catherine Kleimeier",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-     "clean": "gatsby clean"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "repository": {
     "type": "git",
@@ -24,13 +21,14 @@
   "homepage": "https://github.com/cakleimeier/cakleimeier.github.io#readme",
   "dependencies": {
     "bulma": "^0.8.0",
-    "gatsby": "^2.18.17",
-    "gatsby-plugin-sass": "^2.1.26",
-    "gatsby-transformer-json": "^2.2.22",
-    "gh-pages": "^2.1.1",
-    "node-sass": "^4.13.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "nuxt": "^2.14.3",
+    "nuxt-fontawesome": "^0.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-loader": "^4.0.2",
+    "node-sass": "^4.14.1",
+    "push-dir": "^0.4.1",
+    "sass-loader": "^9.0.3"
   }
 }

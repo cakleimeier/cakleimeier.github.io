@@ -6,5 +6,8 @@
 
 # Automatically Generated Files
 # --------------------------------
-/.cache
-/public
+dist
+
+# Build Directory
+# --------------------------------
+.nuxt
