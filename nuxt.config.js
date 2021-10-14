@@ -17,7 +17,6 @@ module.exports = {
       }
   */
   components: true,
-  
   modules: [],
   buildModules: ['@nuxtjs/tailwindcss'],
   head: {
@@ -104,6 +103,9 @@ module.exports = {
   css: [
     '~/assets/scss/main'
   ],
+  tailwindcss: {
+    exposeConfig: true
+  },
   /*
   ** Build configuration
   */
@@ -112,15 +114,13 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
       if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/,
-          options: { fix: true }
-        })
+        const options = {
+          exclude: ['node_modules']
+        }
+        const EslintPlugin = require('eslint-webpack-plugin')
+        config.plugins.push(new EslintPlugin(options))
       }
     }
   }
