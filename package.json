@@ -23,8 +23,13 @@
     "nuxt": "^2.15.3"
   },
   "devDependencies": {
+    "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "@tailwindcss/jit": "^0.1.18",
-    "push-dir": "^0.4.1"
+    "eslint-webpack-plugin": "2.5.4",
+    "push-dir": "^0.4.1",
+    "sass": "^1.43.2",
+    "sass-loader": "10.2.0",
+    "webpack": "4.46.0"
   }
 }
