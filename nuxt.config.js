@@ -1,6 +1,6 @@
 module.exports = {
   target: 'static',
-  mode: 'spa',
+  ssr: false,
   router: {
     base: '/cakleimeier.github.io/'
   },
@@ -17,23 +17,9 @@ module.exports = {
       }
   */
   components: true,
-  modules: [
-    [
-      'nuxt-fontawesome',
-      {
-        imports: [
-          {
-            set: '@fortawesome/free-solid-svg-icons',
-            icons: ['fas']
-          },
-          {
-            set:'@fortawesome/free-brands-svg-icons',
-            icons: ['fab']
-          }
-        ]
-      }
-    ]
-  ],
+  
+  modules: [],
+  buildModules: ['@nuxtjs/tailwindcss'],
   head: {
     // Maps to the inner-text value of the <title> element.
     title: '',
@@ -116,8 +102,7 @@ module.exports = {
     }
   },
   css: [
-    'bulma',
-    '~/assets/scss/main',
+    '~/assets/scss/main'
   ],
   /*
   ** Build configuration
