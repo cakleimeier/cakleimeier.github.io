@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   target: 'static',
   ssr: false,
@@ -17,8 +19,12 @@ module.exports = {
       }
   */
   components: true,
-  modules: [],
-  buildModules: ['@nuxtjs/tailwindcss'],
+  buildModules: ['@nuxtjs/tailwindcss', 'postcss-import', 'autoprefixer'],
+  tailwindcss: {
+    cssPath: '~/assets/scss/tailwind.scss',
+    configPath: 'tailwind.config.js',
+    exposeConfig: true
+  },
   head: {
     // Maps to the inner-text value of the <title> element.
     title: '',
@@ -53,7 +59,7 @@ module.exports = {
     // where object properties map to attributes.
     link: [
       { rel: 'icon', type: 'image/png', href: 'favicon.png' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Nunito|Raleway' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Oxanium:wght@200;400&family=Oxygen:wght@400;700&family=Roboto+Slab:wght@300&display=swap' }
     ],
 
     // Each item in the array maps to a newly-created <script> element, 
@@ -103,17 +109,12 @@ module.exports = {
   css: [
     '~/assets/scss/main'
   ],
-  tailwindcss: {
-    exposeConfig: true
-  },
   /*
   ** Build configuration
   */
   build: {
     extractCSS: true,
-    /*
-    ** Run ESLint on save
-    */
+    /* Run ESLint on save */
     extend(config, ctx) {
       if (ctx.isDev && ctx.isClient) {
         const options = {
@@ -121,6 +122,29 @@ module.exports = {
         }
         const EslintPlugin = require('eslint-webpack-plugin')
         config.plugins.push(new EslintPlugin(options))
+      }
+    },
+    /* Compile SCSS on save */
+    postcss: {
+      plugins: {
+        'postcss-import': {},
+        tailwindcss: path.resolve(__dirname, './tailwind.config.js'),
+        'postcss-nested': {}
+      },
+      preset: {
+        stage: 1 // see https://tailwindcss.com/docs/using-with-preprocessors#future-css-featuress
+      },
+      optimization: {
+        splitChunks: {
+          cacheGroups: {
+            tailwindConfig: {
+              test: /tailwind\.config/,
+              chunks: 'all',
+              priority: 10,
+              name: true
+            }
+          }
+        }
       }
     }
   }
