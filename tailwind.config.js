@@ -12,23 +12,23 @@ module.exports = {
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		colors: {
-			'dark-brown'    : '#28231c',
-			'medium-brown'  : '#513b3c',
-			'light-brown'   : '#655356',
-			'black'         : '#070707',
-			'dark-purple'   : '#0d0221',
-			'bright-purple' : '#42084b',
-			'light-purple'  : '#847996',
+			'dark-purple'   : '#1B1529',
+			'medium-purple' : '#2F315A',
+			'light-purple'  : '#454EA0',
 			'dark-blue'     : '#0f084b',
-			'bright-blue'   : '#26408b',
+			'medium-blue'   : '#26408b',
+			'light-blue'    : '#46B4C3',
 			'cyan'          : '#19a8ae',
 			'dark-green'    : '#004643',
-			'off-white'     : '#f4ecd6',
-			'grey'          : '#eae8ed'
+			'yellow'        : '#FFDF6E',
+			'pink'          : '#EA87B6',
+			'white'         : '#FFFFFF',
+			'grey'          : '#eae8ed',
+			'black'         : '#070707',
 		},
 		fontFamily: {
-			'display' : ['Oxanium', 'cursive'],
-			'sans'   : ['Oxygen', 'sans-serif'],
+			'display' : ['Poiret One', 'cursive'],
+			'sans'   : ['Montserrat', 'sans-serif'],
 			'serif'    : ['Roboto Slab', 'serif']
 		},
 		extend: {},

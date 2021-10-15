@@ -59,7 +59,7 @@ module.exports = {
     // where object properties map to attributes.
     link: [
       { rel: 'icon', type: 'image/png', href: 'favicon.png' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Oxanium:wght@200;400&family=Oxygen:wght@400;700&family=Roboto+Slab:wght@300&display=swap' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poiret+One&family=Montserrat:wght@400;700&family=Roboto+Slab:wght@300&display=swap' }
     ],
 
     // Each item in the array maps to a newly-created <script> element, 
