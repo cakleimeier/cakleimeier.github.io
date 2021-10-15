@@ -8,9 +8,30 @@
 
 /* Imports */
 /* ---------------------------- */
-@import "settings"; // overrides for bulma
-@import "~bulma";
-@import url('https://fonts.googleapis.com/css?family=Nunito|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;400&family=Oxygen:wght@400;700&family=Roboto+Slab:wght@300&display=swap');
+
+/* Tailwind */
+@import 'tailwind';
 
 /* Custom */
-@import "components";
+@import 'typography';
+
+:root {
+	--font-display: theme('fontFamily.display');
+	--font-sans: theme('fontFamily.sans');
+	--font-serif: theme('fontFamily.serif');
+	--color-dark-brown: theme('colors.dark-brown');
+	--color-medium-brown: theme('colors.medium-brown');
+	--color-light-brown: theme('colors.light-brown');
+	--color-black: theme('colors.black');
+	--color-dark-purple: theme('colors.dark-purple');
+	--color-bright-purple: theme('colors.bright-purple');
+	--color-light-purple: theme('colors.light-purple');
+	--color-dark-blue: theme('colors.dark-blue');
+	--color-bright-blue: theme('colors.bright-blue');
+	--color-cyan: theme('colors.cyan');
+	--color-dark-green: theme('colors.dark-green');
+	--color-off-white: theme('colors.off-white');
+	--color-white: '#eeeeee';
+	--color-grey: theme('colors.grey');
+}
