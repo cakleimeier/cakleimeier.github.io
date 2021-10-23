@@ -1,5 +1,5 @@
 <template>
-  <header id="mobile-nav">
+  <header id="nav">
     <nav>
     </nav>
   </header>
@@ -7,6 +7,6 @@
 
 <script>
   export default {
-    layout: 'mobile-nav'
+    layout: 'nav'
   }
 </script>

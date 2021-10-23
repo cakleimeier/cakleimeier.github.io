@@ -1,10 +1,9 @@
 <template>
   <main>
-    <Hero />
     <About />
     <Experience />
     <Skills />
     <Portfolio />
-    <MobileNav />
+    <Nav />
   </main>
 </template>
