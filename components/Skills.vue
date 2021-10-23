@@ -2,7 +2,7 @@
   <section id="skills" class="col-span-12">
     <article class="grid grid-cols-12 gap-12">
         <div class="col-span-12">
-            <h2>Skills</h2>
+            <h2 class="tracking-wider">Skills</h2>
         </div>
 
         <div class="col-span-7">

@@ -2,7 +2,7 @@
   <section id="portfolio" class="col-span-5">
     <article class="grid grid-cols-1">
         <div class="col-span-1">
-            <h2>Portfolio</h2>
+            <h2 class="tracking-wider pb-4">Portfolio</h2>
             <p>While most of my development work has been done on private repositories to protect client privacy, I have many non-code materials that demonstrate my proficiency with technical and non-technical skills.</p>
             <ul>
                 <portfolio-item v-for="item in items" :key="item.key" :content="{

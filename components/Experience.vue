@@ -2,8 +2,8 @@
   <section id="experience" class="col-span-7">
     <article class="grid grid-cols-1">
         <div class="col-span-1">
-            <h2>Experience</h2>
-            <h6 class="text-bronze"><em>Résumé available upon request</em></h6>
+            <h2 class="tracking-wider pb-4">Experience</h2>
+            <h6 class="text-bronze pb-4"><em>Résumé available upon request</em></h6>
         </div>
 
         <div class="col-span-1">
