@@ -1,13 +1,13 @@
 <template>
-  <section id="about" class="">
-    <article class="w-full flex flex justify-around content-center">
-        <div class="w-1/4">
-
+  <section id="about" class="col-span-12">
+    <article class="grid grid-cols-12 gap-12">
+        <div class="col-span-5">
             <figure class="image bg-grey">
                 <img class="object-contain p-4" src="~/assets/images/cakleimeier.jpg" alt="Catherine Kleimeier">
             </figure>
         </div>
-        <div class="w-1/2">
+
+        <div class="col-span-7">
             <div>
                 <h1 class="pb-0 mb-0">Catherine Kleimeier</h1>
                 <h6 class="text-bronze"><em>Rhymes with "climb higher"</em></h6>
