@@ -58,7 +58,7 @@ small, .text_small {
     font-size: 0.8rem;
 }
 
-ul {
+ul:not(.nav-list) {
     li {
         font-size: 1rem;
         line-height: 2;

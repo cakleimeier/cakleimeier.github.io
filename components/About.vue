@@ -1,13 +1,13 @@
 <template>
-  <section id="about" class="col-span-12">
-    <article class="grid grid-cols-12 gap-12">
-        <div class="col-span-5">
+  <section id="about" class="md:col-span-12">
+    <article class="md:grid md:grid-cols-12 md:gap-12">
+        <div class="md:col-span-5">
             <figure class="image bg-grey rounded-full w-3/4 my-0 mx-auto">
                 <img class="object-contain p-4 rounded-full" src="~/assets/images/cakleimeier.jpg" alt="Catherine Kleimeier">
             </figure>
         </div>
 
-        <div class="col-span-7">
+        <div class="pt-4 md:pt0 md:col-span-7">
             <div class="pb-4">
                 <h1 class="pb-0 mb-0">Catherine Kleimeier</h1>
                 <h6 class="text-bronze py-2"><em>Rhymes with "climb higher"</em></h6>

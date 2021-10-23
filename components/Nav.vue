@@ -11,6 +11,16 @@
             <a href="https://www.linkedin.com/in/catherine-kleimeier/" target="_blank" class="font-bold text-bronze text-2xl font-display tracking-wider mx-2"> LinkedIn</a> 
             <a href="mailto:catherine.kleimeier@gmail.com" class="font-bold text-bronze text-2xl font-display tracking-wider"> Contact Me</a>
         </div>
+
+        <!-- Mobile Nav -->
+        <div class="block md:hidden w-full">
+            <ul class="nav-list w-full flex items-center justify-around text-center flex-wrap">
+                <li><a class="text-white" href="#about">About</a></li>
+                <li><a class="text-white" href="#skills">Skills</a></li>
+                <li><a class="text-white" href="#experience">Experience</a></li>
+                <li><a class="text-white" href="#portfolio">Portfolio</a></li>
+            </ul>
+        </div>
     </nav>
   </header>
 </template>

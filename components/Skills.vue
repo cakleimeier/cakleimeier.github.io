@@ -1,6 +1,6 @@
 <template>
-  <section id="skills" class="col-span-12">
-    <article class="grid grid-cols-12 gap-12">
+  <section id="skills" class="md:col-span-12">
+    <article class="md:grid md:grid-cols-12 md:gap-12">
         <div class="col-span-12">
             <h2 class="tracking-wider">Skills</h2>
         </div>
@@ -18,7 +18,7 @@
             </ul>
         </div>
 
-        <div class="col-span-5">
+        <div class="col-span-5 pt-4 md:pt-0">
             <h3>Front-End</h3>
             <p> I have experience translating static mockups and designs into functional, fully-fledged websites. Some tools I'm proficient with include:</p>
             <ul>
@@ -30,7 +30,7 @@
             </ul>
         </div>
 
-        <div class="col-span-7">
+        <div class="col-span-7 pt-4 md:pt-0">
             <h3>Other Skills</h3>
 
             <ul>
@@ -52,7 +52,7 @@
             </ul>
         </div>
 
-        <div class="col-span-5">
+        <div class="col-span-5 pt-4 md:pt-0">
             <h3>Other Technology</h3>
             <ul>
                 <li>Git version control</li>

@@ -1,5 +1,5 @@
 <template>
-  <section id="experience" class="col-span-7">
+  <section id="experience" class="col-span-7 pt-4 md:pt-0">
     <article class="grid grid-cols-1">
         <div class="col-span-1">
             <h2 class="tracking-wider pb-4">Experience</h2>
@@ -7,7 +7,7 @@
         </div>
 
         <div class="col-span-1">
-            <article>
+            <article class="pt-4 md:pt-0">
                 <h3 class="text-grey">Full-Stack Web Developer <em class="text-sm text-bronze">with</em> <span class="text-teal">Masuga Design</span> — May 2018 to Present</h3>
                 <ul>
                     <li>Build and maintain custom websites using Craft CMS and ExpressionEngine</li>
@@ -23,7 +23,7 @@
                     <li>Work with designers, project managers, third-party developers, and end clients</li>
                 </ul>
             </article>
-            <article>
+            <article class="pt-4 md:pt-0">
                 <h3 class="text-grey">Full-Stack Web Developer <em class="text-sm text-bronze">with</em> <span class="text-teal"> Artisan Digital Media</span> — December 2016 to August 2017</h3>
                 <ul>
                     <li>Build custom websites using ExpressionEngine and Craft CMS</li>
@@ -31,7 +31,7 @@
                     <li>Build a large-scale project including complex, multi-functional features development (integrated blog for large law firm)</li>
                 </ul>
             </article>
-            <article>
+            <article class="pt-4 md:pt-0">
                 <h3 class="text-grey">Annotator and Geographical Researcher <em class="text-sm text-bronze">with</em> <span class="text-teal"> HERE Technologies</span> — 2012 to 2018</h3>
                 <ul>
                     <li>Evaluate the effectiveness of HERE’s map search program by analyzing the User-entered Queries and software-provided Responses</li>
