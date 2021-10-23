@@ -12,9 +12,15 @@
                 <ul>
                     <li>Build and maintain custom websites using Craft CMS and ExpressionEngine</li>
                     <li>Upgrade websites from older/different Content Management Systems</li>
-                    <li>Build custom functionality to integrate with websites</li>
+                    <li>Build custom functionality to integrate with websites, including CMS plugins/extensions and third-party integrations</li>
                     <li>Communicate with clients to gather information, clarify and manage expectations, solve problems, and maintain relationships</li>
-                    <li>Write documentation for clients and developers</li>
+                    <li>Write clear documentation and create instructional materials for clients and developers, including website functionality and best practices</li>
+                    <li>Create and maintain servers with RunCloud and DigitalOcean</li>
+                    <li>Engage in planning and managing web projects</li>
+                    <li>Research and analyze solutions for every aspect of web development</li>
+                    <li>Learn and implement new technologies on-the-fly</li>
+                    <li>Research, create, and implement systems to optimize and standardize the web development process</li>
+                    <li>Work with designers, project managers, third-party developers, and end clients</li>
                 </ul>
             </article>
             <article>
