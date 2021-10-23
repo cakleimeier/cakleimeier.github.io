@@ -13,6 +13,7 @@ module.exports = {
     theme: {
         colors: {
             'white'         : '#FFFFFF',
+            'light-grey'    : '#C1C1C2',
             'grey'          : '#3E3E3F',
             'black'         : '#262525',
             'teal'          : '#19A8AE',
