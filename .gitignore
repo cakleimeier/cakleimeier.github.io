@@ -1,0 +1,14 @@
+# Site: catherinekleimeier.com
+
+# Components
+# --------------------------------
+/node_modules
+
+# Automatically Generated Files
+# --------------------------------
+dist
+
+# Build Directory
+# --------------------------------
+.nuxt
+_nuxt
