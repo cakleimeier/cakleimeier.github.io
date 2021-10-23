@@ -1,6 +1,8 @@
+const path = require('path');
+
 module.exports = {
   target: 'static',
-  mode: 'spa',
+  ssr: false,
   router: {
     base: '/cakleimeier.github.io/'
   },
@@ -17,23 +19,12 @@ module.exports = {
       }
   */
   components: true,
-  modules: [
-    [
-      'nuxt-fontawesome',
-      {
-        imports: [
-          {
-            set: '@fortawesome/free-solid-svg-icons',
-            icons: ['fas']
-          },
-          {
-            set:'@fortawesome/free-brands-svg-icons',
-            icons: ['fab']
-          }
-        ]
-      }
-    ]
-  ],
+  buildModules: ['@nuxtjs/tailwindcss', 'postcss-import', 'autoprefixer'],
+  tailwindcss: {
+    cssPath: '~/assets/scss/tailwind.scss',
+    configPath: 'tailwind.config.js',
+    exposeConfig: true
+  },
   head: {
     // Maps to the inner-text value of the <title> element.
     title: '',
@@ -68,7 +59,7 @@ module.exports = {
     // where object properties map to attributes.
     link: [
       { rel: 'icon', type: 'image/png', href: 'favicon.png' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Nunito|Raleway' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poiret+One&family=Montserrat:wght@400;700&family=Roboto+Slab:wght@300&display=swap' }
     ],
 
     // Each item in the array maps to a newly-created <script> element, 
@@ -116,26 +107,44 @@ module.exports = {
     }
   },
   css: [
-    'bulma',
-    '~/assets/scss/main',
+    '~/assets/scss/main'
   ],
   /*
   ** Build configuration
   */
   build: {
     extractCSS: true,
-    /*
-    ** Run ESLint on save
-    */
-    extend (config, ctx) {
+    /* Run ESLint on save */
+    extend(config, ctx) {
       if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/,
-          options: { fix: true }
-        })
+        const options = {
+          exclude: ['node_modules']
+        }
+        const EslintPlugin = require('eslint-webpack-plugin')
+        config.plugins.push(new EslintPlugin(options))
+      }
+    },
+    /* Compile SCSS on save */
+    postcss: {
+      plugins: {
+        'postcss-import': {},
+        tailwindcss: path.resolve(__dirname, './tailwind.config.js'),
+        'postcss-nested': {}
+      },
+      preset: {
+        stage: 1 // see https://tailwindcss.com/docs/using-with-preprocessors#future-css-featuress
+      },
+      optimization: {
+        splitChunks: {
+          cacheGroups: {
+            tailwindConfig: {
+              test: /tailwind\.config/,
+              chunks: 'all',
+              priority: 10,
+              name: true
+            }
+          }
+        }
       }
     }
   }

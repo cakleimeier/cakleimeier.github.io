@@ -1,6 +1,6 @@
 {
   "name": "cakleimeier.github.io",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Personal website for Catherine Kleimeier",
   "scripts": {
     "dev": "nuxt",
@@ -20,17 +20,20 @@
   },
   "homepage": "https://github.com/cakleimeier/cakleimeier.github.io#readme",
   "dependencies": {
-    "bulma": "^0.8.0",
-    "nuxt": "^2.14.3",
-    "nuxt-fontawesome": "^0.4.0"
+    "nuxt": "^2.15.3"
   },
   "devDependencies": {
-    "@fortawesome/free-brands-svg-icons": "^5.14.0",
-    "@fortawesome/free-solid-svg-icons": "^5.14.0",
-    "eslint": "^7.7.0",
-    "eslint-loader": "^4.0.2",
-    "node-sass": "^4.14.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.3.7",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-webpack-plugin": "2.5.4",
+    "node-sass": "^6.0.1",
+    "postcss-import": "^14.0.2",
     "push-dir": "^0.4.1",
-    "sass-loader": "^9.0.3"
+    "sass": "^1.43.2",
+    "sass-loader": "^10.2.0",
+    "webpack": "4.46.0"
   }
 }
