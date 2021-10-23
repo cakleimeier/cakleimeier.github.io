@@ -8,7 +8,7 @@
 
         <div class="w-full md:w-7/12 flex items-center justify-around md:justify-end text-center">
             <a href="https://github.com/cakleimeier" target="_blank" class="font-bold text-bronze text-2xl font-display tracking-wider"> Github</a>
-            <a href="https://www.linkedin.com/in/catherine-kleimeier/" target="_blank" class="font-bold text-bronze text-2xl font-display tracking-wider mx-2"> LinkedIn</a> 
+            <a href="https://www.linkedin.com/in/catherine-kleimeier/" target="_blank" class="font-bold text-bronze text-2xl font-display tracking-wider px-4"> LinkedIn</a> 
             <a href="mailto:catherine.kleimeier@gmail.com" class="font-bold text-bronze text-2xl font-display tracking-wider"> Contact Me</a>
         </div>
 
