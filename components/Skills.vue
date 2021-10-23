@@ -35,19 +35,19 @@
 
             <ul>
                 <li><span class="font-serif tracking-wider text-xl">Communication</span><br/>
-                    <p>I excel at written communication, but am also a clear and personable speaker. I take the time to plan out my communication to be clear, concise, and effective.</p>
+                    <p>I excel at written communication, but am also a clear and personable speaker. I take the time to plan out my communication. I strive to be clear, concise, and effective.</p>
                 </li>
                 <li><span class="font-serif tracking-wider text-xl">Organization and Planning</span>
-                    <p>I regularly plan out projects and features, including specific details about structure and functionality and big-picture plans and processes.</p>
+                    <p>I regularly plan out projects and features, including specific details about structure and functionality as well as big-picture plans and processes.</p>
                 </li>
                 <li><span class="font-serif tracking-wider text-xl">Project Management</span>
-                    <p>I’ve spearheaded project management on a number of projects, from gathering requirements and clarifying expectations with clients to planning out the execution of projects with developers.</p>
+                    <p>I’ve spearheaded a number of projects, from gathering requirements and clarifying expectations with clients to planning out the execution of projects with developers.</p>
                 </li>
                 <li><span class="font-serif tracking-wider text-xl">Leadership and Teamwork</span>
                     <p>I’ve frequently guided projects and features by leading collaboration among developers and other team members, organizing and managing plans, and initiating or facilitating frequent and clear communication.</p>
                 </li>
                 <li><span class="font-serif tracking-wider text-xl">Education</span>
-                    <p>I’ve repeatedly taught end clients how to use their new CMS, from generalities about the control panel to specific features exclusive to their site.</p>
+                    <p>I’ve successfully taught end clients how to use their new CMS, from generalities about the control panel to specific features exclusive to their site.</p>
                 </li>
             </ul>
         </div>

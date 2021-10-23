@@ -28,7 +28,7 @@
                     'href': 'https://youtu.be/GBmtAryB-wU"',
                     'title': 'Organizing Assets in Craft CMS',
                     'category': 'Video',
-                    'blurb': 'In this video, I cover some common Asset-relatedion functionality in Craft CMS, including the creation and naming of subfolders, how to move, rename, and replace files, and some other common Asset-related functions.'
+                    'blurb': 'In this video, I cover some common Asset-related functionality in Craft CMS, including the creation and naming of subfolders, how to move, rename, and replace files, and more.'
                 },
                 {
                     'key': 2,
