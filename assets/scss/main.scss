@@ -15,27 +15,18 @@
 
 /* Custom */
 @import 'typography';
-@import 'hero';
 
 :root {
 	--font-display: theme('fontFamily.display');
 	--font-sans: theme('fontFamily.sans');
 	--font-serif: theme('fontFamily.serif');
-	--color-dark-purple   : theme('colors.dark-purple');
-	--color-medium-purple : theme('colors.medium-purple');
-	--color-light-purple  : theme('colors.light-purple');
-	--color-dark-blue     : theme('colors.dark-blue');
-	--color-medium-blue   : theme('colors.medium-blue');
-	--color-light-blue    : theme('colors.light-blue');
-	--color-cyan          : theme('colors.cyan');
-	--color-dark-green    : theme('colors.dark-green');
-	--color-yellow        : theme('colors.yellow');
-	--color-pink          : theme('colors.pink');
 	--color-white         : theme('colors.white');
 	--color-grey          : theme('colors.grey');
 	--color-black         : theme('colors.black');
+	--color-teal          : theme('colors.teal');
+	--color-brozen        : theme('colors.bronze');
 }
 
 html {
-	background: var(--color-black);
+	background: var(--color-white);
 }
