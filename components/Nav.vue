@@ -15,10 +15,10 @@
         <!-- Mobile Nav -->
         <div class="block md:hidden w-full">
             <ul class="nav-list w-full flex items-center justify-around text-center flex-wrap">
-                <li><a class="text-white" href="#about">About</a></li>
-                <li><a class="text-white" href="#skills">Skills</a></li>
-                <li><a class="text-white" href="#experience">Experience</a></li>
-                <li><a class="text-white" href="#portfolio">Portfolio</a></li>
+                <li><NuxtLink class="text-white" data-to="about" to="#about">About</NuxtLink></li>
+                <li><NuxtLink class="text-white in-page-link" data-to="skills" to="#skills" target="_self">Skills</NuxtLink></li>
+                <li><NuxtLink class="text-white in-page-link" data-to="experience" to="#experience" target="_self">Experience</NuxtLink></li>
+                <li><NuxtLink class="text-white in-page-link" data-to="portfolio" to="#portfolio" target="_self">Portfolio</NuxtLink></li>
             </ul>
         </div>
     </nav>
@@ -27,6 +27,22 @@
 
 <script>
   export default {
-    layout: 'nav'
+    layout: 'nav',
+    mounted() {
+        let anchors = document.querySelectorAll('.in-page-link');
+        let navHeight = document.getElementById('nav').offsetHeight;
+
+        // Only 'in-page-links' are mobile nav links, which should account for the header height when scrolling
+        anchors.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault;
+                // Get the id of the element to navigate to
+                let target = document.getElementById(link.dataset['to']);
+                let top = target.offsetTop;
+                // Set the appropriate scroll position
+                window.scrollTo(0, top - navHeight);
+            });
+        });
+    }
   }
 </script>
