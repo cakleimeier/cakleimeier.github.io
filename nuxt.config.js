@@ -27,7 +27,7 @@ module.exports = {
   },
   head: {
     // Maps to the inner-text value of the <title> element.
-    title: '',
+    title: 'Catherine Kleimeier',
 
     // The value of title will be injected into the %s placeholder in titleTemplate before being rendered.
     // The original title will be available on metaInfo.titleChunk.
