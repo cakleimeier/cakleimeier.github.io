@@ -10,7 +10,7 @@
     </div>
 
     <div class="w-full bg-black flex align-center justify-center content-center items-center py-4">
-        <h3 class="font-display p-0">Thanks for visting!</h3>
+        <h3 class="font-display p-0">Thanks for visiting!</h3>
     </div>
   </main>
 </template>
