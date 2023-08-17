@@ -46,7 +46,7 @@
                 <h3 class="text-grey">Annotator and Geographical Researcher <em class="text-sm text-bronze">with</em> <span class="text-teal"> HERE Technologies</span> — 2012 to 2018</h3>
                 <ul>
                     <li>Evaluate the effectiveness of HERE’s map search program by analyzing the User-entered Queries and software-provided Responses</li>
-                    <li>Research, evaluate, and communicate findings</li
+                    <li>Research, evaluate, and communicate findings</li>
                      <li>Establish validity of software information through geographical research</li>
                      <li>Assess performance and understanding of tagging team by supervising work and providing feedback</li>
                      <li>Promoted to highest “tagger” supervisory position within six months and helped train several new recruits through reviewing and critiquing work</li>
