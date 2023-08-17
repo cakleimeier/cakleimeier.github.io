@@ -34,7 +34,9 @@ export default defineNuxtConfig({
       script: [
         { innerHTML: '{ "@context": "http://schema.org" }', type: 'application/ld+json' }
       ]
-    }
+    },
+    baseURL: 'cakleimeier.github.io',
+    buildAssetsDir: 'assets'
   },
   css: [
       '@/assets/css/main.css'
