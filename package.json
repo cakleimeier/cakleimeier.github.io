@@ -3,11 +3,12 @@
   "version": "2.0.0",
   "description": "Personal website for Catherine Kleimeier",
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "start": "nuxt start",
-    "deploy": "gh-pages -d dist"
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages --dotfiles -d .output/public"
   },
   "repository": {
     "type": "git",
@@ -20,21 +21,14 @@
   },
   "homepage": "https://github.com/cakleimeier/cakleimeier.github.io#readme",
   "dependencies": {
-    "nuxt": "^2.15.3"
+    "@vitejs/plugin-vue": "^4.3.1",
+    "nuxt": "3.6.5"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-module": "^3.0.2",
-    "@nuxtjs/tailwindcss": "^4.2.1",
-    "@tailwindcss/jit": "^0.1.18",
-    "autoprefixer": "^10.3.7",
-    "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-webpack-plugin": "2.5.4",
-    "gh-pages": "^3.2.3",
-    "node-sass": "^6.0.1",
-    "postcss-import": "^14.0.2",
-    "push-dir": "^0.4.1",
-    "sass": "^1.43.2",
-    "sass-loader": "^10.2.0",
-    "webpack": "4.46.0"
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18.17.3",
+    "autoprefixer": "^10.4.15",
+    "gh-pages": "6.0.0"
   }
 }

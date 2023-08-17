@@ -1,8 +1,9 @@
+@charset "utf-8";
+
 /* Site: catherinekleimeier.com */
 
 /* Misc Settings */
 /* ---------------------------- */
-@charset "utf-8";
 
 
 
@@ -11,10 +12,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Montserrat:wght@400;700&family=Roboto+Slab:wght@300&display=swap');
 
 /* Tailwind */
-@import 'tailwind';
+@import './tailwind.css';
 
 /* Custom */
-@import 'typography';
+@import './typography.css';
 
 :root {
     --font-display: theme('fontFamily.display');

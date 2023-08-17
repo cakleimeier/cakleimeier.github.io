@@ -58,20 +58,18 @@ small, .text_small {
     font-size: 0.8rem;
 }
 
-ul:not(.nav-list) {
-    li {
-        font-size: 1rem;
-        line-height: 2;
-        padding-bottom: .5rem;
-
-        &:before {
-            background: var(--color-teal);
-            border-radius: .75rem;
-            content: '';
-            display: inline-block;
-            height: .75rem;
-            margin-right: .75rem;
-            width: .75rem;
-        }
-    }
+ul:not(.nav-list)li {
+    font-size: 1rem;
+    line-height: 2;
+    padding-bottom: .5rem;
 }
+
+ul:not(.nav-list)li::before {
+     background: var(--color-teal);
+     border-radius: .75rem;
+     content: '';
+     display: inline-block;
+     height: .75rem;
+     margin-right: .75rem;
+     width: .75rem;
+ }
