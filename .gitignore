@@ -12,6 +12,13 @@
 # --------------------------------
 .nuxt
 _nuxt
+node_modules
+*.log*
+.nitro
+.cache
+.output
+.env
+dist
 
 # Environment Setup
 # --------------------------------
